@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: bf02db21fbb8a8e1613fcb90d389a478f53d5ec8b67afe3fb800a935000676ba
+-- hash: cf80008580057dfb2554329f436703aac8f40958f83a78bf23bc0eff4d481e22
 
 name:           HellsTriangle
 version:        0.1.0.0
@@ -31,6 +31,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , text
   exposed-modules:
       Lib
   other-modules:
@@ -45,6 +46,7 @@ executable HellsTriangle-exe
   build-depends:
       HellsTriangle
     , base >=4.7 && <5
+    , text
   other-modules:
       Paths_HellsTriangle
   default-language: Haskell2010
@@ -58,6 +60,8 @@ test-suite HellsTriangle-test
   build-depends:
       HellsTriangle
     , base >=4.7 && <5
+    , hspec
+    , text
   other-modules:
       Paths_HellsTriangle
   default-language: Haskell2010

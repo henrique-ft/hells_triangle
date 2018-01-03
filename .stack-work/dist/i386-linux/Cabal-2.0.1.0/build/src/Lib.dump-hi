@@ -1,0 +1,125 @@
+
+==================== FINAL INTERFACE ====================
+2018-01-03 18:06:58.558415 UTC
+
+interface HellsTriangle-0.1.0.0-KFrWt1bOW6C3jKT3g24n7A:Lib 8022
+  interface hash: 9b4f55fcc203541a24f77895c7066d7d
+  ABI hash: a7095d16f2c848f736ddabfa25a369a9
+  export-list hash: ce0c366bd57cbba4cd8b72c3d0c3ad43
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ef1ceba328a85a54c0429da8819d93a4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.startProgram
+module dependencies:
+package dependencies: base-4.10.1.0* ghc-prim-0.5.1.1
+                      integer-gmp-1.0.1.0
+orphans: base-4.10.1.0:GHC.Float base-4.10.1.0:GHC.Base
+family instance modules: base-4.10.1.0:Control.Applicative
+                         base-4.10.1.0:Data.Either base-4.10.1.0:Data.Functor.Const
+                         base-4.10.1.0:Data.Functor.Identity base-4.10.1.0:Data.Monoid
+                         base-4.10.1.0:Data.Type.Equality base-4.10.1.0:GHC.Generics
+                         base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
+                         base-4.10.1.0:GHC.TypeNats
+import  -/  base-4.10.1.0:GHC.Base 5c0eab85c0ebd88dbbbe72dc80f7f3af
+import  -/  base-4.10.1.0:Prelude 0dcaa0418f2712f52b487daaa51abb55
+import  -/  base-4.10.1.0:System.IO b75b38804e6a7cd17dbbfdbf1b13216b
+import  -/  base-4.10.1.0:Text.Read 8d59b3bd4686b4233b81f786c6eb18a3
+import  -/  ghc-prim-0.5.1.1:GHC.Types f1fd43a652e51838d52b5b2302a0fd42
+f3fd79b3694513c11d340630932ccde6
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule3 Lib.$trModule1) -}
+170aca8c264860c6a545827ed3ac281f
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Lib.$trModule2) -}
+0b1dcf33143d30f51fb4853ea4013236
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Lib"#) -}
+d2509a453eaaa348c6240d5602a25ffe
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Lib.$trModule4) -}
+d002bce53d5abca5ab1c8ccb0c07dfbc
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("HellsTriangle-0.1.0.0-KFrWt1bOW6C3jKT3g24n7A"#) -}
+cce7591427b9426aa8ead4fbdd78e128
+  type HellsTriangle = [[GHC.Types.Int]]
+49d1a8700a38d571b75e7ebdee8c5fd9
+  startProgram :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Lib.startProgram1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+af901d0d134438c9b87128fca4caae9a
+  startProgram1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Lib.startProgram6
+                        GHC.Types.True
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        GHC.Types.True
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Lib.startProgram4
+                        GHC.Types.True
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Lib.startProgram2
+                        GHC.Types.True
+                        ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        GHC.Types.True
+                        ipv6 of ds5 { (#,#) ipv8 ipv9 ->
+                 case GHC.IO.Handle.Internals.wantReadableHandle_1
+                        @ GHC.Base.String
+                        GHC.IO.Handle.Text.hGetLine4
+                        GHC.IO.Handle.FD.stdin
+                        GHC.IO.Handle.Text.hGetLine2
+                          `cast`
+                        (<GHC.IO.Handle.Types.Handle__>_R
+                         ->_R Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R))
+                        ipv8 of ds6 { (#,#) ipv10 ipv11 ->
+                 (# ipv10, GHC.Tuple.() #) } } } } } }) -}
+46633ac04cc15dffe43f5417a1eef688
+  startProgram2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram3) -}
+7104634f5f874b928eb33cdc84f4608c
+  startProgram3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Example: [[1],[1,2],[1,2,3]]"#) -}
+f0a71d3eb2029c976169ff01c8e81947
+  startProgram4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram5) -}
+cf2bbfbd6e285338ce7b9f402d7111f7
+  startProgram5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("Send a triangle in a list and i'll give you the maximum total. "#) -}
+cf7e5f45c25a31deedd51f1bbde10d5e
+  startProgram6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram7) -}
+b00355234b847a51fe9b7e7c9f00cfbb
+  startProgram7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("-------------- Welcome to HellsTriangle Machine --------------"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
