@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cf80008580057dfb2554329f436703aac8f40958f83a78bf23bc0eff4d481e22
+-- hash: 4ac9d047474fd30a9de0ea743131a0cf8fcf3e3ca7abb513d5bc0f72fb463ede
 
 name:           HellsTriangle
 version:        0.1.0.0
@@ -46,6 +46,7 @@ executable HellsTriangle-exe
   build-depends:
       HellsTriangle
     , base >=4.7 && <5
+    , containers
     , text
   other-modules:
       Paths_HellsTriangle
@@ -60,6 +61,7 @@ test-suite HellsTriangle-test
   build-depends:
       HellsTriangle
     , base >=4.7 && <5
+    , containers
     , hspec
     , text
   other-modules:

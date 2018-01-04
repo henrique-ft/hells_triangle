@@ -37,6 +37,7 @@ executables:
     dependencies:
     - HellsTriangle
     - text
+    - containers
 
 tests:
   HellsTriangle-test:
@@ -50,3 +51,4 @@ tests:
     - HellsTriangle
     - hspec
     - text
+    - containers

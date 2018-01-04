@@ -33,6 +33,17 @@
   (major1) == 4 && (major2) == 10 && (minor) <= 1)
 #endif /* MIN_VERSION_base */
 
+/* package containers-0.5.10.2 */
+#ifndef VERSION_containers
+#define VERSION_containers "0.5.10.2"
+#endif /* VERSION_containers */
+#ifndef MIN_VERSION_containers
+#define MIN_VERSION_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 10)
+#endif /* MIN_VERSION_containers */
+
 /* package text-1.2.2.2 */
 #ifndef VERSION_text
 #define VERSION_text "1.2.2.2"
@@ -177,7 +188,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "HellsTriangle-0.1.0.0-AHZkvQ2ZAuaKsqolk4Xklh-HellsTriangle-exe"
+#define CURRENT_COMPONENT_ID "HellsTriangle-0.1.0.0-ExZ7SKlKmjMH4GUXll3Zfr-HellsTriangle-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

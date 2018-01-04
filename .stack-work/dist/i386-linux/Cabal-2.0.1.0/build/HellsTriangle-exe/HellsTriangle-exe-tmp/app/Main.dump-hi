@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-03 18:06:58.973513 UTC
+2018-01-04 02:32:20.452846 UTC
 
 interface main:Main 8022
-  interface hash: d73783114f350169f0ff324a6def97b6
-  ABI hash: 0e6636798a5f110bfc43046e07dd9df4
-  export-list hash: 774350b233f449a576dc8e3ff405e10f
+  interface hash: 57971a916e62626ba77dee1a99947e9d
+  ABI hash: 73078e61755895a07254779d07c50092
+  export-list hash: ec2b909423fd27553a6a57d37efab4f0
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0fef8e928b2f4bb173fb701be61b476f
   sig of: Nothing
@@ -23,7 +23,7 @@ family instance modules: base-4.10.1.0:Control.Applicative
                          base-4.10.1.0:Data.Type.Equality base-4.10.1.0:GHC.Generics
                          base-4.10.1.0:GHC.IO.Exception base-4.10.1.0:GHC.TypeLits
                          base-4.10.1.0:GHC.TypeNats
-import  -/  HellsTriangle-0.1.0.0:Lib a7095d16f2c848f736ddabfa25a369a9
+import  -/  HellsTriangle-0.1.0.0:Lib 98e862f136e3a8ce4a18b1108287a344
 import  -/  base-4.10.1.0:Prelude 0dcaa0418f2712f52b487daaa51abb55
 import  -/  ghc-prim-0.5.1.1:GHC.Types f1fd43a652e51838d52b5b2302a0fd42
 9d72b2fddb818bcd8919052935e0f1f3
@@ -44,12 +44,12 @@ e5875966b74dad2d29772660b8a75e33
 d026be77cb9ced20e35a61514e0458aa
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("main"#) -}
-7322812b69398896622c227c2c6bd5ca
+111636631fac986ab75e7f8de4833537
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startProgram1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-42bb8119ea55fd97940f9cf523352fc6
+c64491489c6de99619c9ade93289c15c
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
