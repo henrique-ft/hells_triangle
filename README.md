@@ -4,25 +4,25 @@ I choose Haskell because it'ś a pure functional strongly-typed language and its
 
 To execute the program you have to use a Linux(Ubuntu 14 or 16) machine. Follow the steps below:
 
-Download Haskell Stack
+Download Haskell Stack:
 
 ` 
 $ curl -sSL https://get.haskellstack.org/ | sh
 `
 
-Clone this repository
+Clone this repository:
 
 ` 
 $ git clone https://github.com/henriquefernandez/HellsTriangle.git
 `
 
-Go to the repository folder
+Go to the repository folder:
 
 `
 $ cd HellsTriangle
 `
 
-Build
+Build:
 
 `
 $ stack build
@@ -31,13 +31,13 @@ $ stack build
 It will install project dependencies and haskell GHC.
 
 
-Execute
+Execute:
 
 `
 $ stack exec HellsTriangle
 `
 
-Run tests
+Run tests:
 
 `
 $ stack test 
