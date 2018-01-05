@@ -22,3 +22,11 @@ main = hspec $ do -- A partir desse primeiro do teremos uma ou mais descrições
 		it "receive the index of iteration" $ do
 			(mapWithIteration (\k v -> v+k) [1,2,3,4]) `shouldBe` [1,3,5,7]
 	
+	describe "getValuesThatCanBeSummedAndSum function" $ do
+
+		it "Sum max value near from array to another by index" $ do
+			(getValuesThatCanBeSummedAndSum [1,2] [1] 1 10) `shouldBe` 12
+
+		it "Works with equal values in array" $ do
+			(getValuesThatCanBeSummedAndSum [2,2] [1] 1 10) `shouldBe` 12
+
