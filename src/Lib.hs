@@ -47,12 +47,14 @@ sumHellsTriangleFromBottom oldList actualList =
 	let getValuesThatCanBeSummedAndSumCurried = getValuesThatCanBeSummedAndSum oldList actualList
 	in mapWithIteration getValuesThatCanBeSummedAndSumCurried actualList
 
-findMaximumTotal :: HellsTriangle -> IO ()
-findMaximumTotal hellsTriangle = do
-    result <- return (foldl sumHellsTriangleFromBottom [] (reverse hellsTriangle))
+findMaximumTotal :: HellsTriangle -> Int
+findMaximumTotal hellsTriangle = head $ foldl sumHellsTriangleFromBottom [] (reverse hellsTriangle)
+
+showIntResult :: Int -> IO ()
+showIntResult result = do
     putStrLn ""
     putStrLn "Result:"
-    putStrLn (show (head result))
+    putStrLn (show (result))
     return ()
 
 startProgram :: IO ()
@@ -63,5 +65,5 @@ startProgram = do
     putStrLn "Example: [[1],[1,2],[1,2,3]]"  
     putStrLn ""
     hellsTriangle <- getUserInput
-    findMaximumTotal hellsTriangle
+    showIntResult $ findMaximumTotal hellsTriangle
     return ()

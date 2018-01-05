@@ -24,9 +24,21 @@ main = hspec $ do -- A partir desse primeiro do teremos uma ou mais descrições
 	
 	describe "getValuesThatCanBeSummedAndSum function" $ do
 
-		it "Sum max value near from array to another by index" $ do
+		it "Sum max value near from list to another by index" $ do
 			(getValuesThatCanBeSummedAndSum [1,2] [1] 1 10) `shouldBe` 12
 
-		it "Works with equal values in array" $ do
+		it "Works with equal values in list" $ do
 			(getValuesThatCanBeSummedAndSum [2,2] [1] 1 10) `shouldBe` 12
 
+	describe "sumHellsTriangleFromBottom function" $ do
+
+		it "Dont cause effects when there is a empty list in first param" $ do
+			(sumHellsTriangleFromBottom [] [1,2,3]) `shouldBe` [1,2,3]
+
+		it "Find corresponding max value of 'triangle' and sum" $ do
+			(sumHellsTriangleFromBottom [1,2,3] [2,3]) `shouldBe` [4,6]
+
+	describe "Principal Functionality" $ do
+
+		it "find the maximum total" $ do
+			(findMaximumTotal [[6],[3,5],[9,7,1],[4,6,8,4]]) `shouldBe` 26

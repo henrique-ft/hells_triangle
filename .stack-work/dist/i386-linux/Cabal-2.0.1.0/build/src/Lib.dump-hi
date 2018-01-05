@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-04 23:34:49.702902 UTC
+2018-01-05 15:26:18.242715 UTC
 
 interface HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz:Lib 8022
-  interface hash: b6e8d1eb42fd6834b5a93c9ed2ae1f6a
-  ABI hash: c00c920be85596ecb59f3113cd069a4b
+  interface hash: 7d09c081a606611ef621da08dd42e692
+  ABI hash: 89fda30c33977acb5a888eb5c348e0b3
   export-list hash: a08676b4a93c92dd944b9844d085272a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: ef1ceba328a85a54c0429da8819d93a4
@@ -102,52 +102,20 @@ f2d6a60fa7fd357f7b58fc1aeaf0486d
                         GHC.Types.True -> GHC.List.$w!! @ GHC.Types.Int w ww } } }) -}
 80b165c6aee3c84a4b65df68ce702567
   type HellsTriangle = [[GHC.Types.Int]]
-6dc24c1e9b3e8bd5d1c72e9d3332a6e1
-  findMaximumTotal :: Lib.HellsTriangle -> GHC.Types.IO ()
-  {- Arity: 2, Strictness: <L,1*U><S,U>,
-     Unfolding: InlineRule (0, True, True)
-                Lib.findMaximumTotal1
-                  `cast`
-                (<Lib.HellsTriangle>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
-9dca9984fc1d91661225cfce8836b244
-  findMaximumTotal1 ::
-    Lib.HellsTriangle
-    -> GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
-  {- Arity: 2, Strictness: <L,1*U><S,U>,
-     Unfolding: (\ (hellsTriangle :: Lib.HellsTriangle)
-                   (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
-                 case GHC.IO.Handle.Text.hPutStr2
-                        GHC.IO.Handle.FD.stdout
-                        (GHC.Types.[] @ GHC.Types.Char)
-                        GHC.Types.True
-                        s of ds1 { (#,#) ipv ipv1 ->
-                 case GHC.IO.Handle.Text.hPutStr2
-                        GHC.IO.Handle.FD.stdout
-                        Lib.findMaximumTotal2
-                        GHC.Types.True
-                        ipv of ds2 { (#,#) ipv2 ipv3 ->
-                 case GHC.IO.Handle.Text.hPutStr2
-                        GHC.IO.Handle.FD.stdout
-                        (Lib.findMaximumTotal_go
-                           (GHC.List.reverse1
-                              @ [GHC.Types.Int]
-                              hellsTriangle
-                              (GHC.Types.[] @ [GHC.Types.Int]))
-                           (GHC.Types.[] @ GHC.Types.Int))
-                        GHC.Types.True
-                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
-                 (# ipv4, GHC.Tuple.() #) } } }) -}
-bb0278bf7c419bd67d42adb28d948ba4
-  findMaximumTotal2 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# Lib.findMaximumTotal3) -}
-d142b8f8059c01e338e30ade506c9dd7
-  findMaximumTotal3 :: GHC.Prim.Addr#
-  {- HasNoCafRefs, Unfolding: ("Result:"#) -}
-15f89e51f5affcbc464b324ae9bb04e6
+93e8a88f805726fd55d0e055ad24968a
+  findMaximumTotal :: Lib.HellsTriangle -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (hellsTriangle :: Lib.HellsTriangle) ->
+                 Lib.findMaximumTotal_go
+                   (GHC.List.reverse1
+                      @ [GHC.Types.Int]
+                      hellsTriangle
+                      (GHC.Types.[] @ [GHC.Types.Int]))
+                   (GHC.Types.[] @ GHC.Types.Int)) -}
+a52477e096721ba71e2c953884ca3ae6
   findMaximumTotal_go ::
-    [[GHC.Types.Int]] -> [GHC.Types.Int] -> GHC.Base.String
-  {- Arity: 2, Strictness: <S,1*U><L,U>m2 -}
+    [[GHC.Types.Int]] -> [GHC.Types.Int] -> GHC.Types.Int
+  {- Arity: 2, Strictness: <S,1*U><L,U> -}
 4748dba4423cd1d610bd93ac5a97ded7
   getUserInput :: GHC.Types.IO Lib.HellsTriangle
   {- Arity: 1, Strictness: <S,U>,
@@ -256,12 +224,12 @@ e9a04d2088dd7f4cbde4d814193403a4
                 (\ (w :: GHC.Types.Int) (w1 :: [GHC.Types.Int]) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Lib.$wreturnValueByIndexOrReturnZero ww1 w1 }) -}
-5b39a1351206fcb3d8230f15f645a196
+7f16ba885520664cd86abed34af68246
   startProgram :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startProgram1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-7e25c6fecacb91cb0b144369ae1b3963
+b2a1ed14fd019481f02148dc004a1ad3
   startProgram1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -269,7 +237,7 @@ e9a04d2088dd7f4cbde4d814193403a4
      Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld) ->
                  case GHC.IO.Handle.Text.hPutStr2
                         GHC.IO.Handle.FD.stdout
-                        Lib.startProgram6
+                        Lib.startProgram8
                         GHC.Types.True
                         s of ds1 { (#,#) ipv ipv1 ->
                  case GHC.IO.Handle.Text.hPutStr2
@@ -279,12 +247,12 @@ e9a04d2088dd7f4cbde4d814193403a4
                         ipv of ds2 { (#,#) ipv2 ipv3 ->
                  case GHC.IO.Handle.Text.hPutStr2
                         GHC.IO.Handle.FD.stdout
-                        Lib.startProgram4
+                        Lib.startProgram6
                         GHC.Types.True
                         ipv2 of ds3 { (#,#) ipv4 ipv5 ->
                  case GHC.IO.Handle.Text.hPutStr2
                         GHC.IO.Handle.FD.stdout
-                        Lib.startProgram2
+                        Lib.startProgram4
                         GHC.Types.True
                         ipv4 of ds4 { (#,#) ipv6 ipv7 ->
                  case GHC.IO.Handle.Text.hPutStr2
@@ -293,28 +261,56 @@ e9a04d2088dd7f4cbde4d814193403a4
                         GHC.Types.True
                         ipv6 of ds5 { (#,#) ipv8 ipv9 ->
                  case Lib.getUserInput1 ipv8 of ds6 { (#,#) ipv10 ipv11 ->
-                 case Lib.findMaximumTotal1
-                        ipv11
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        GHC.Types.True
                         ipv10 of ds7 { (#,#) ipv12 ipv13 ->
-                 (# ipv12, GHC.Tuple.() #) } } } } } } }) -}
-5958047fdb8d5fc67f43e555dd3e2fc7
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        Lib.startProgram2
+                        GHC.Types.True
+                        ipv12 of ds8 { (#,#) ipv14 ipv15 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (case Lib.findMaximumTotal_go
+                                (GHC.List.reverse1
+                                   @ [GHC.Types.Int]
+                                   ipv11
+                                   (GHC.Types.[] @ [GHC.Types.Int]))
+                                (GHC.Types.[] @ GHC.Types.Int) of ww2 { GHC.Types.I# ww3 ->
+                         case GHC.Show.$wshowSignedInt
+                                0#
+                                ww3
+                                (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                         GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                        GHC.Types.True
+                        ipv14 of ds9 { (#,#) ipv16 ipv17 ->
+                 (# ipv16, GHC.Tuple.() #) } } } } } } } } }) -}
+293c06604bc58ab7126597dc1ec7c840
   startProgram2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram3) -}
-56ec7bab5c216d17bc8002bd5b2c795d
+860abe025b267bde120c3f3d4accb4e7
   startProgram3 :: GHC.Prim.Addr#
-  {- HasNoCafRefs, Unfolding: ("Example: [[1],[1,2],[1,2,3]]"#) -}
-9bb3f6401c706b9beed19301bb79e737
+  {- HasNoCafRefs, Unfolding: ("Result:"#) -}
+76f030fa3bb86ceca0335716a7010895
   startProgram4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram5) -}
-062f42ac24f7e110c8e7e11a995bfbda
+d5570c24c6128f044056d5911af8e33f
   startProgram5 :: GHC.Prim.Addr#
-  {- HasNoCafRefs,
-     Unfolding: ("Send a triangle in a list and i'll give you the maximum total. "#) -}
-a4af28b3b33aeb3d7498441eae70b5dd
+  {- HasNoCafRefs, Unfolding: ("Example: [[1],[1,2],[1,2,3]]"#) -}
+e4d1b07783db4d3686f3b0721ff9ddad
   startProgram6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram7) -}
-7ae7d1b1136e6e5d340fa558bd48ba45
+7b9cdc8e52118f987ada8cd735e38127
   startProgram7 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("Send a triangle in a list and i'll give you the maximum total. "#) -}
+cd9738f49e413ff9c7ced852bb29800d
+  startProgram8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram9) -}
+6232fa067d4c2688d81249e3ad6f5cbb
+  startProgram9 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("-------------- Welcome to HellsTriangle Machine --------------"#) -}
 8fa7c02cdd6a9abf9f878419ead3b913

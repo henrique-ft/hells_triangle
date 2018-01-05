@@ -8,11 +8,11 @@ name:           HellsTriangle
 version:        0.1.0.0
 synopsis:       Short description of your package
 description:    Please see the README on Github at <https://github.com/githubuser/HellsTriangle#readme>
-homepage:       https://github.com/githubuser/HellsTriangle#readme
-bug-reports:    https://github.com/githubuser/HellsTriangle/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2018 Author name here
+homepage:       https://github.com/henriquefernandez/HellsTriangle
+bug-reports:    https://github.com/henriquefernandez/HellsTriangle
+author:         Henrique Fernandez Teixeira
+maintainer:     hriqueft@gmail.com
+copyright:      2018 Henrique Fernandez Teixeira here
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -38,11 +38,11 @@ library
       Paths_HellsTriangle
   default-language: Haskell2010
 
-executable HellsTriangle-exe
+executable HellsTriangle
   main-is: Main.hs
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N -dynamic
   build-depends:
       HellsTriangle
     , base >=4.7 && <5
