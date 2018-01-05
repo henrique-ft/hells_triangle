@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/bin"
-libdir     = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6"
+libdir     = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz"
 dynlibdir  = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2"
 datadir    = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/share/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0"
 libexecdir = "/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/libexec/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0"

@@ -188,7 +188,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "HellsTriangle-0.1.0.0-ExZ7SKlKmjMH4GUXll3Zfr-HellsTriangle-exe"
+#define CURRENT_COMPONENT_ID "HellsTriangle-0.1.0.0-9rOAbubew072BJw2NeX0na-HellsTriangle-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

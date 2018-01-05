@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-03 20:18:55.325421 UTC
+2018-01-04 23:34:49.888278 UTC
 
-interface HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6:Paths_HellsTriangle 8022
-  interface hash: 897886632e6e52f8b4879fa7b6bbeeeb
-  ABI hash: fd5d6a425b68767b097d931ab6440480
-  export-list hash: 1448da84294e5b2e9e5a6198394f1d0d
+interface HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz:Paths_HellsTriangle 8022
+  interface hash: 27057d1bbe2c6b856264f54137d037f1
+  ABI hash: 2e543f0a78145515243cef6e4f89341f
+  export-list hash: 12da5e6228de1287dc08bdd7138ffeb0
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 3ee2bd86d15064fa47d2d787b447dece
   sig of: Nothing
@@ -41,35 +41,35 @@ import  -/  ghc-prim-0.5.1.1:GHC.Types f1fd43a652e51838d52b5b2302a0fd42
 addDependentFile "/home/henrique/.stack/programs/i386-linux/ghc-8.2.2/lib/ghc-8.2.2/include/ghcversion.h"
 addDependentFile ".stack-work/dist/i386-linux/Cabal-2.0.1.0/build/autogen/cabal_macros.h"
 addDependentFile "/usr/include/stdc-predef.h"
-a7cafe78300525395cc08f19d35d7dfb
+9de0f8c491b70c9e8e6a5ef19a917f9d
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module
                    Paths_HellsTriangle.$trModule3
                    Paths_HellsTriangle.$trModule1) -}
-6cdf2ea05b9894ef09e5235f0b29031c
+a2be0e72c9c48fae00859e1de3cf7254
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS Paths_HellsTriangle.$trModule2) -}
-5877ed673cbf3e5c55130850d84135cf
+3c263623158a54c3925ee9cb3136537d
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Paths_HellsTriangle"#) -}
-79109838a0d7734059d903c87efcdc4d
+66103bae191ba61e4078b21c98ba6baa
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS Paths_HellsTriangle.$trModule4) -}
-728c53258904619ca36ca3fb10abb8fb
+999eb0862120939e069ba3e0d4d57546
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6"#) -}
-5334827e2b2d3e9966b43250206d27f1
+     Unfolding: ("HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz"#) -}
+4eb4cb7972b277fe1fa5f2dd526dfa8e
   getBinDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getBinDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-9e9cf94a374ec6c9de3b82442597f3d0
+bb726d6f9146bf620744ad37727bbc89
   getBinDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -81,7 +81,7 @@ a7cafe78300525395cc08f19d35d7dfb
                    Paths_HellsTriangle.getBinDir5
                    Paths_HellsTriangle.getBinDir2
                    eta) -}
-dfd80e80b8b92125fd4bfa30f22b22bf
+334e649510fffc8b9043d38f82fa1722
   getBinDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -108,15 +108,15 @@ dfd80e80b8b92125fd4bfa30f22b22bf
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getBinDir3 #) } } }) -}
-6fd3cf91a8085c2533fe6d886d0b5c3d
+7f9aece098774f967cd41e90dc95cd6c
   getBinDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getBinDir4) -}
-de391410b9348877b4d03fb060a9aea5
+acc1eb27cf609a9b5b6c0de863af881c
   getBinDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/bin"#) -}
-9a092169b5270aa34197a4add39b6bc1
+c4811e08922258e113c3095f755f340c
   getBinDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -141,21 +141,21 @@ de391410b9348877b4d03fb060a9aea5
                    GHC.Base.Nothing
                    -> System.Environment.getEnv2 ipv2 Paths_HellsTriangle.getBinDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-397b24d24254e5ae9dd97ca0794fbebc
+cdb0dfb3bf14cf69b867eb3a0f164e15
   getBinDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getBinDir7) -}
-063a543f87164b6f7f5cc2aac31589b9
+1918b51320f41fee1ce157af69f483be
   getBinDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_bindir"#) -}
-3d86c992c9cdbd2299c62923d39cd46f
+47e9191683b22f892f6c7f435cfcf1b3
   getDataDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getDataDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-5343556a34291e66a409b0bb69f5117f
+08f05b4ef0e0e4c8b4aa753d2a892a1a
   getDataDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -167,7 +167,7 @@ de391410b9348877b4d03fb060a9aea5
                    Paths_HellsTriangle.getDataDir5
                    Paths_HellsTriangle.getDataDir2
                    eta) -}
-7e6f87e1aaab946442a38daa40b4ce92
+5d505e3cf5d539f105e2067747ec004b
   getDataDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -194,15 +194,15 @@ de391410b9348877b4d03fb060a9aea5
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getDataDir3 #) } } }) -}
-2489125a8fbe853bde017819e5f05c81
+fe1cc89a0b31aa7c7de5a8c1e71a269d
   getDataDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getDataDir4) -}
-2d74b43fdf9786c05b9e7bc4781ec2d8
+7a2dfbaa2c1dc5a459a500b6a0f7c136
   getDataDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/share/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0"#) -}
-89f24b5db0a0b8e132c8b6edf7e290a2
+afc41ed868cd2a0c758159f520b149c7
   getDataDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -227,14 +227,14 @@ de391410b9348877b4d03fb060a9aea5
                    GHC.Base.Nothing
                    -> System.Environment.getEnv2 ipv2 Paths_HellsTriangle.getDataDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-071a28594a6ebd7e5a200d9262d6bfa8
+8198d0512956d9d8ca4047fe20ef538a
   getDataDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getDataDir7) -}
-a58b48ddd5ec4fba220e09c610001b97
+f38b92211ff23b200a499312e4192a2e
   getDataDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_datadir"#) -}
-aa7e47344bf406385a529bd432a773c9
+dbf964af0e08524d6c0805a5eff89f09
   getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
   {- Arity: 2, Strictness: <L,U><S,U>,
      Unfolding: InlineRule (0, True, True)
@@ -242,7 +242,7 @@ aa7e47344bf406385a529bd432a773c9
                   `cast`
                 (<GHC.IO.FilePath>_R
                  ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
-381db968fea2fa336f2b4bc662079a34
+659a0ba5052c5572f6a2863b9227ca26
   getDataFileName1 ::
     GHC.IO.FilePath
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -263,17 +263,17 @@ aa7e47344bf406385a529bd432a773c9
                       (GHC.CString.unpackAppendCString#
                          Paths_HellsTriangle.getDataFileName2
                          name) #) }) -}
-2ceac713d538ee8a7953cce23e8f04b2
+2925a83f1bc214bbca5c6e2d6c6cfd60
   getDataFileName2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("/"#) -}
-f09e5dc86fbd5bbbeb58ea9b2b872317
+f7d97137abe2e3a84305f033396d946b
   getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getDynLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-2e5201c4046197210cc751027e87508b
+eed16750ecdc02f05a84fbcc782356c1
   getDynLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -285,7 +285,7 @@ f09e5dc86fbd5bbbeb58ea9b2b872317
                    Paths_HellsTriangle.getDynLibDir5
                    Paths_HellsTriangle.getDynLibDir2
                    eta) -}
-5d6980919730cc2c75249d83a383561e
+6889afd5e1be43e431dd7b2af6cf1c33
   getDynLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -312,15 +312,15 @@ f09e5dc86fbd5bbbeb58ea9b2b872317
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getDynLibDir3 #) } } }) -}
-b7fb6e967ea4ffd9a0471c4a72e1b76b
+8999323c57886a05f523cf19a195f50d
   getDynLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getDynLibDir4) -}
-51435b02fc3ec294ed7bcd78053a2b23
+4fe5d8250e92ade6b3bdba61e39edb6f
   getDynLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2"#) -}
-41f043fdab5379009dab50986182fbfc
+84a0f0a25084b18d5f41fb6a51a3d37e
   getDynLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -347,21 +347,21 @@ b7fb6e967ea4ffd9a0471c4a72e1b76b
                         ipv2
                         Paths_HellsTriangle.getDynLibDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-e090965148951faf33ca5c73fe86d729
+5e535ecc6490b0debea08ef5b54340d6
   getDynLibDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getDynLibDir7) -}
-85688881cdb790bb8b07a63e2897cc1d
+1adf958d1e8bc64e0d8d1c7c9145a2a7
   getDynLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_dynlibdir"#) -}
-3797c666c7d44db57f85e0cb6b4b22ac
+f2c53583dccd2a90f52f98c4ffbde52d
   getLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-2188dc5a561982c8075a0c30bd4e3f84
+d5163dc577c63990bce1ede451136c3b
   getLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -373,7 +373,7 @@ e090965148951faf33ca5c73fe86d729
                    Paths_HellsTriangle.getLibDir5
                    Paths_HellsTriangle.getLibDir2
                    eta) -}
-0d3e85d13e89fc01303a8034e61566cc
+2c22e65e56a771c6c6ab029e6041254f
   getLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -400,15 +400,15 @@ e090965148951faf33ca5c73fe86d729
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getLibDir3 #) } } }) -}
-ef01cc895ef0afa61ebcecfa7b8b07fc
+eae2d959e11f953cf74048250d537610
   getLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getLibDir4) -}
-7e55115ffee9a75e289d034113585a8f
+e96e4a191742fed801a61f3699856aaf
   getLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6"#) -}
-94494fd508bbdd88f0fdf6f178ec99ad
+     Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz"#) -}
+841fb7efbd82bddf70ea3a68a21b8d56
   getLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -433,21 +433,21 @@ ef01cc895ef0afa61ebcecfa7b8b07fc
                    GHC.Base.Nothing
                    -> System.Environment.getEnv2 ipv2 Paths_HellsTriangle.getLibDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-c9fc8f8ba28ec8ddf2350b572a8a05e9
+898a0ac282acabdf4aa25af0a01c2813
   getLibDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getLibDir7) -}
-8b7d90701f4b75b0c9f6b3d8d8b9f927
+685ae8c51812af05caf77a0ad39765ba
   getLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_libdir"#) -}
-18481d68df18140901cc705ce4d4fe5f
+69a5ba0cc5bccbc86fcad87316954123
   getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getLibexecDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-b468eb45ce1bfc51e789b5d6b6a90aad
+63583cb6f3ec6c46003e33bee5d77b36
   getLibexecDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -459,7 +459,7 @@ b468eb45ce1bfc51e789b5d6b6a90aad
                    Paths_HellsTriangle.getLibexecDir5
                    Paths_HellsTriangle.getLibexecDir2
                    eta) -}
-a52a3448387461ac857f975843aca615
+50ed6d149f460e88e13b876c3eb40213
   getLibexecDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -486,15 +486,15 @@ a52a3448387461ac857f975843aca615
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getLibexecDir3 #) } } }) -}
-f8f6cfca644c67027ca8265d6be69dd8
+c44ba3c1e7597f90ba4d3c449174d572
   getLibexecDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getLibexecDir4) -}
-ccf68f4001ca299fefd02f6dddbbbbb5
+4b34e33a15c2544e4d7663396258faf8
   getLibexecDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/libexec/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0"#) -}
-e4a83c84f610a80708aa283e6a54c27e
+05cdf1873c21a34ac32c6b344b9e47e4
   getLibexecDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -521,21 +521,21 @@ e4a83c84f610a80708aa283e6a54c27e
                         ipv2
                         Paths_HellsTriangle.getLibexecDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-4f06b83de65d100e7e643dd20d8c5625
+793e95d63dfc2ad6d81b8ed5801e015c
   getLibexecDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getLibexecDir7) -}
-c9857ed123bffd5af2bf44bf223f9a4c
+21c2294dbe7d9a0c1738e53baf1660c7
   getLibexecDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_libexecdir"#) -}
-ff25b4729002b63c27637b3881c58866
+5d42384921fba0682899abbc36637a4f
   getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getSysconfDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-ee99624e9bab49edcd279e56dbd1ec24
+5bad43d3faacb1753107319cbb88ce12
   getSysconfDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -547,7 +547,7 @@ ee99624e9bab49edcd279e56dbd1ec24
                    Paths_HellsTriangle.getSysconfDir5
                    Paths_HellsTriangle.getSysconfDir2
                    eta) -}
-e22f24f1f0b09fb9c0c1b7d21e1b288a
+c14c7f878bc32b50dff02ccd05f373f4
   getSysconfDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -574,15 +574,15 @@ e22f24f1f0b09fb9c0c1b7d21e1b288a
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getSysconfDir3 #) } } }) -}
-ff318565bf95a92ffa89e2b5812ad510
+8f6d4bdff71dc8e4220f323963efe3d5
   getSysconfDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getSysconfDir4) -}
-3febdc3c7f40f7eb2005d3d77af99d8b
+dabb942053eed2d78da4a98699a11e0e
   getSysconfDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/etc"#) -}
-ce59ca04be9aae43b68bafae17883fba
+e51372c3a85fde626662ae283e04f074
   getSysconfDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -609,51 +609,51 @@ ce59ca04be9aae43b68bafae17883fba
                         ipv2
                         Paths_HellsTriangle.getSysconfDir6
                    GHC.Base.Just x -> (# ipv2, x #) } } }) -}
-c86e2a450cf73141d69a184024064ed6
+27310d5b5ff9e58154bb13cc19083107
   getSysconfDir6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getSysconfDir7) -}
-d3d251885e1a6d7c9e8821eade05d522
+f5ab453137bcac4bcc08dd48af70cbb7
   getSysconfDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_sysconfdir"#) -}
-e1e8d5131d47742c5b5d5e6114837f41
+30f91c65025511f8885eaf73eabb8cda
   version :: Data.Version.Version
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (Data.Version.Version
                    Paths_HellsTriangle.version1
                    (GHC.Types.[] @ GHC.Base.String)) -}
-6e4553be7dcd19105f51bec19eb2e526
+7ecf2cfc60dc19afe4e7f49601f8d330
   version1 :: [GHC.Types.Int]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Int
                    Paths_HellsTriangle.version5
                    Paths_HellsTriangle.version2) -}
-5e0cd4eb57fb4a7facb55a63604bb195
+a4586b74ffa578530a6fd20c6187babc
   version2 :: [GHC.Types.Int]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Int
                    Paths_HellsTriangle.version6
                    Paths_HellsTriangle.version3) -}
-38ff51a81473c5f70ef8bc04716c0545
+cbd8bb58fc983a47a388355a04f38f7d
   version3 :: [GHC.Types.Int]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Int
                    Paths_HellsTriangle.version5
                    Paths_HellsTriangle.version4) -}
-99096e5a275d89b1a00bccf98ad533ce
+73fad0691cbac3c60a29d4f650b9c5fe
   version4 :: [GHC.Types.Int]
   {- HasNoCafRefs, Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ GHC.Types.Int
                    Paths_HellsTriangle.version5
                    (GHC.Types.[] @ GHC.Types.Int)) -}
-4f32adef471b7496c0c92583fbdd1f80
+d666d22bda3cceb3d5ff653bdbccf7b4
   version5 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-447d38f8b9b6b97e25d766608376d35d
+25a99ec7f7358adc2e27fa78a3d98444
   version6 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1#) -}
 vectorised variables:

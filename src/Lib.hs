@@ -52,7 +52,7 @@ findMaximumTotal hellsTriangle = do
     result <- return (foldl sumHellsTriangleFromBottom [] (reverse hellsTriangle))
     putStrLn ""
     putStrLn "Result:"
-    putStrLn (show result)
+    putStrLn (show (head result))
     return ()
 
 startProgram :: IO ()

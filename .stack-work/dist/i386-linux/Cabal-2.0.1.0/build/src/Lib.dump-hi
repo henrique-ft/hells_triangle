@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-04 02:32:19.841078 UTC
+2018-01-04 23:34:49.702902 UTC
 
-interface HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6:Lib 8022
-  interface hash: 38290562ef2b3d498f414d5ab0fde721
-  ABI hash: 98e862f136e3a8ce4a18b1108287a344
-  export-list hash: c05b604b844ddc1019d6ef077b773b34
+interface HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz:Lib 8022
+  interface hash: b6e8d1eb42fd6834b5a93c9ed2ae1f6a
+  ABI hash: c00c920be85596ecb59f3113cd069a4b
+  export-list hash: a08676b4a93c92dd944b9844d085272a
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: ef1ceba328a85a54c0429da8819d93a4
   sig of: Nothing
@@ -42,26 +42,26 @@ import  -/  base-4.10.1.0:System.IO b75b38804e6a7cd17dbbfdbf1b13216b
 import  -/  base-4.10.1.0:Text.Read 8d59b3bd4686b4233b81f786c6eb18a3
 import  -/  ghc-prim-0.5.1.1:GHC.Classes d94dd6d973520df041bdb09fe97ebe64
 import  -/  ghc-prim-0.5.1.1:GHC.Types f1fd43a652e51838d52b5b2302a0fd42
-e010038da7346d77220407d600cc636c
+692aa2e05edca6c3d0e48a061ad48810
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
      Unfolding: (GHC.Types.Module Lib.$trModule3 Lib.$trModule1) -}
-a8c32b74e1d01a3d0a84b95efcfd67f7
+683cb2594acc45b918755b588e9c69d5
   $trModule1 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS Lib.$trModule2) -}
-26ed8afd2a851ae881c98516e2bb4b09
+3fc8fd9bb0695c2b8544433aaa5aee44
   $trModule2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Lib"#) -}
-f0e6881e6186bbb158fe59be6b21b9e7
+852799b8ed7827e7ec49bad5f13c3f95
   $trModule3 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS Lib.$trModule4) -}
-2b6fd5f1347e65a83cebf8e3c13f7b6d
+c32fb6b4c9e3e42b3a83ca839a21fd49
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("HellsTriangle-0.1.0.0-2mUDgK0FC3MIBRNynEZ8w6"#) -}
-40bfd8fa8f1bfeb44aecccea2c3d6106
+     Unfolding: ("HellsTriangle-0.1.0.0-GbjVw98q5r971eEsSTAqHz"#) -}
+c090ab9b85f9d1243cddf3f46a1620b0
   $wgetValuesThatCanBeSummedAndSum ::
     [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 3, Strictness: <S,U><S,U><S,U>, Inline: [0],
@@ -79,12 +79,12 @@ f0e6881e6186bbb158fe59be6b21b9e7
                         (GHC.Prim.<=# x1 y1) of wild2 {
                    GHC.Types.False -> GHC.Prim.+# ww1 x1
                    GHC.Types.True -> GHC.Prim.+# ww1 y1 } } }) -}
-dad41258c980b2bb3f6c2317ae412dad
+70c9f2d94427a8d76417700743da3269
   $wmapWithIterationRecursion ::
     (GHC.Types.Int -> a -> b) -> [a] -> [b] -> GHC.Prim.Int# -> [b]
   {- Arity: 4, Strictness: <L,C(C1(U))><S,U><L,U><S,U>,
      Inline: [0] -}
-060506e309cc977fbbe9b4cd75e7c736
+f2d6a60fa7fd357f7b58fc1aeaf0486d
   $wreturnValueByIndexOrReturnZero ::
     GHC.Prim.Int# -> [GHC.Types.Int] -> GHC.Types.Int
   {- Arity: 2, Strictness: <S,U><S,U>, Inline: [0],
@@ -100,16 +100,16 @@ dad41258c980b2bb3f6c2317ae412dad
                              (GHC.Prim.>=# ww 0#) of wild1 {
                         GHC.Types.False -> Lib.getValuesThatCanBeSummedAndSum1
                         GHC.Types.True -> GHC.List.$w!! @ GHC.Types.Int w ww } } }) -}
-3cfb9593e93e4e7303401b4f626913c2
+80b165c6aee3c84a4b65df68ce702567
   type HellsTriangle = [[GHC.Types.Int]]
-5f82048a51cf5e99119eae73ea65d2f3
+6dc24c1e9b3e8bd5d1c72e9d3332a6e1
   findMaximumTotal :: Lib.HellsTriangle -> GHC.Types.IO ()
   {- Arity: 2, Strictness: <L,1*U><S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.findMaximumTotal1
                   `cast`
                 (<Lib.HellsTriangle>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R)) -}
-ec253d433ad9ca2a5e202198068e9942
+9dca9984fc1d91661225cfce8836b244
   findMaximumTotal1 ::
     Lib.HellsTriangle
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -138,24 +138,24 @@ ec253d433ad9ca2a5e202198068e9942
                         GHC.Types.True
                         ipv2 of ds3 { (#,#) ipv4 ipv5 ->
                  (# ipv4, GHC.Tuple.() #) } } }) -}
-e7f2b8fbd12f9815ceba706bead74441
+bb0278bf7c419bd67d42adb28d948ba4
   findMaximumTotal2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.findMaximumTotal3) -}
-5175fb5044d7a3b9381ff4fa69e42636
+d142b8f8059c01e338e30ade506c9dd7
   findMaximumTotal3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Result:"#) -}
-b7d5809fb484849b68941070c6575a3d
+15f89e51f5affcbc464b324ae9bb04e6
   findMaximumTotal_go ::
     [[GHC.Types.Int]] -> [GHC.Types.Int] -> GHC.Base.String
-  {- Arity: 2, Strictness: <S,1*U><L,U> -}
-52bfb963975bc5c4b04cbd4818352cfa
+  {- Arity: 2, Strictness: <S,1*U><L,U>m2 -}
+4748dba4423cd1d610bd93ac5a97ded7
   getUserInput :: GHC.Types.IO Lib.HellsTriangle
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.getUserInput1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <Lib.HellsTriangle>_R)) -}
-2f7107683f3013c696260f1fd30a508a
+f3eedbc5c373bf5a19039153371c6253
   getUserInput1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, Lib.HellsTriangle #)
@@ -181,13 +181,13 @@ b7d5809fb484849b68941070c6575a3d
                       : x ds
                       -> case ds of wild1 {
                            [] -> x : ipv2 ipv3 -> Lib.getUserInput2 } } #) }) -}
-0ac36470df72bde42594eac1afb63756
+66f0c4459d4846cdbed3fbcf8596791b
   getUserInput2 :: Lib.HellsTriangle
   {- Strictness: x -}
-d8d61e7f474c8da9be8919d3fa04b5b2
+c18f9c8c401c3c39a83aa899763790f0
   getUserInput3 :: Lib.HellsTriangle
   {- Strictness: x -}
-b67f5695a93d05e8a9e2854d2eb030ba
+a3167a7b525f49e89f385e0fb550fee9
   getUserInput4 :: Text.ParserCombinators.ReadP.P Lib.HellsTriangle
   {- Unfolding: ((GHC.Read.$fRead[]_$s$creadListPrec
                     `cast`
@@ -198,7 +198,7 @@ b67f5695a93d05e8a9e2854d2eb030ba
                  (Text.ParserCombinators.ReadP.N:ReadP[0] <Lib.HellsTriangle>_R)
                    @ Lib.HellsTriangle
                    (Text.Read.readEither7 @ Lib.HellsTriangle)) -}
-eff21a189ed08bf39bf57384c5ec498a
+17ac9fbbaf2b9cc147d33757fce83191
   getValuesThatCanBeSummedAndSum ::
     [GHC.Types.Int]
     -> [GHC.Types.Int]
@@ -219,10 +219,10 @@ eff21a189ed08bf39bf57384c5ec498a
                         ww1
                         ww3 of ww4 { DEFAULT ->
                  GHC.Types.I# ww4 } } }) -}
-48da53048aaaf7bfc9f1cbd50c53ad63
+e4fe92ce49a532dc6d29c9d821a3fdd2
   getValuesThatCanBeSummedAndSum1 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
-18b87ba6ba4fd3f57902bb95226c1d20
+9bd10a9637ed1ffa757cb47d0792b1f0
   mapWithIteration :: (GHC.Types.Int -> a -> b) -> [a] -> [b]
   {- Arity: 2, Strictness: <L,C(C1(U))><S,U>,
      Unfolding: InlineRule (2, True, False)
@@ -234,7 +234,7 @@ eff21a189ed08bf39bf57384c5ec498a
                    list
                    (GHC.Types.[] @ b)
                    Lib.getValuesThatCanBeSummedAndSum1) -}
-65cd0f739c77382faba82bfd51b61172
+1dc55bc6d652c86034db77eb197d6a53
   mapWithIterationRecursion ::
     (GHC.Types.Int -> a -> b) -> [a] -> [b] -> GHC.Types.Int -> [b]
   {- Arity: 4, Strictness: <L,C(C1(U))><S,U><L,U><S(S),1*U(U)>,
@@ -248,7 +248,7 @@ eff21a189ed08bf39bf57384c5ec498a
                    (w3 :: GHC.Types.Int) ->
                  case w3 of ww { GHC.Types.I# ww1 ->
                  Lib.$wmapWithIterationRecursion @ a @ b w w1 w2 ww1 }) -}
-8c9b3336864feed091c2b8bb133e9a79
+e9a04d2088dd7f4cbde4d814193403a4
   returnValueByIndexOrReturnZero ::
     GHC.Types.Int -> [GHC.Types.Int] -> GHC.Types.Int
   {- Arity: 2, Strictness: <S(S),1*U(U)><S,U>, Inline: [0],
@@ -256,12 +256,12 @@ eff21a189ed08bf39bf57384c5ec498a
                 (\ (w :: GHC.Types.Int) (w1 :: [GHC.Types.Int]) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Lib.$wreturnValueByIndexOrReturnZero ww1 w1 }) -}
-6995eea2c6072ea89907ffcdbf923329
+5b39a1351206fcb3d8230f15f645a196
   startProgram :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.startProgram1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-042d6ab0b76ef8f342abed27915ea20f
+7e25c6fecacb91cb0b144369ae1b3963
   startProgram1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -297,27 +297,27 @@ eff21a189ed08bf39bf57384c5ec498a
                         ipv11
                         ipv10 of ds7 { (#,#) ipv12 ipv13 ->
                  (# ipv12, GHC.Tuple.() #) } } } } } } }) -}
-611aed7c8fac7fc43be467e082390e6a
+5958047fdb8d5fc67f43e555dd3e2fc7
   startProgram2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram3) -}
-7c60a33f3c7941da44c3a8a6b3fe7c96
+56ec7bab5c216d17bc8002bd5b2c795d
   startProgram3 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("Example: [[1],[1,2],[1,2,3]]"#) -}
-187690c2d1a1a447b791201d46633d53
+9bb3f6401c706b9beed19301bb79e737
   startProgram4 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram5) -}
-65c3e4cd27cf49c96b7c93d7d25de433
+062f42ac24f7e110c8e7e11a995bfbda
   startProgram5 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("Send a triangle in a list and i'll give you the maximum total. "#) -}
-a9f65eacc7bcbba66089cbd5ea71e2bf
+a4af28b3b33aeb3d7498441eae70b5dd
   startProgram6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# Lib.startProgram7) -}
-8faed5217a52b445af6bc14e795a0158
+7ae7d1b1136e6e5d340fa558bd48ba45
   startProgram7 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("-------------- Welcome to HellsTriangle Machine --------------"#) -}
-030a097974911b861f0585281b2eb4f8
+8fa7c02cdd6a9abf9f878419ead3b913
   sumHellsTriangleFromBottom ::
     [GHC.Types.Int] -> [GHC.Types.Int] -> [GHC.Types.Int]
   {- Arity: 2, Strictness: <L,U><S,U>,

@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-01-03 20:18:55.864615 UTC
+2018-01-04 23:34:51.625002 UTC
 
 interface main:Paths_HellsTriangle 8022
-  interface hash: 84b64eef6a40425108c78d20da882c28
-  ABI hash: e65f657f9e7f3a0f34e8ded1fd3066bc
+  interface hash: d4eeb62842c0499b869fd68d16af82a4
+  ABI hash: 0a2e19c305525a3dd601e5fcb9d50e60
   export-list hash: 83c43ce83858fcd1302131d2ddb3230c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 8b1097144ca987accb18f4eda266b4e1
@@ -353,14 +353,14 @@ fd906acf879ae9ef94e37eb1e58b599c
 a770e068498dd3fdf73cb9d83f2b5e23
   getDynLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("HellsTriangle_dynlibdir"#) -}
-99816244f89bf69b0d6bc3c3b9518f0e
+1d7816cae6ab77d560d2e7533a3b5003
   getLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_HellsTriangle.getLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-0e92edb2e76049388c18bf34f3deca5d
+d78d0afd11de729ffba4fc87ac3354e6
   getLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -372,7 +372,7 @@ a770e068498dd3fdf73cb9d83f2b5e23
                    Paths_HellsTriangle.getLibDir5
                    Paths_HellsTriangle.getLibDir2
                    eta) -}
-af12f08a235517fade615da7160ea482
+de54683d43f29c8252de89d3c1d9d700
   getLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -399,14 +399,14 @@ af12f08a235517fade615da7160ea482
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_HellsTriangle.getLibDir3 #) } } }) -}
-f6dded37d5ac410c1fa2bbb6b1ff8062
+13851e81f5e242e4af18805786213ffe
   getLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_HellsTriangle.getLibDir4) -}
-2c324e5714d9fcacd6b7947378074c2b
+7e13d4369125951bd7851b2830693079
   getLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-ExZ7SKlKmjMH4GUXll3Zfr-HellsTriangle-exe"#) -}
+     Unfolding: ("/home/henrique/Desktop/SkyHub/HellsTriangle/.stack-work/install/i386-linux/lts-10.2/8.2.2/lib/i386-linux-ghc-8.2.2/HellsTriangle-0.1.0.0-9rOAbubew072BJw2NeX0na-HellsTriangle-exe"#) -}
 1937123301a3f303b512750ab87d2efe
   getLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
